@@ -1,0 +1,66 @@
+/* active link in navbar */
+
+.nav-parent ul li:nth-child(3) {
+  background-color: var(--main-color);
+}
+/*  */
+
+.blog-container {
+  display: flex;
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.blog-container section {
+  padding: 0;
+  padding-right: 30px;
+}
+
+.blog-card {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-card .user-details {
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+.blog-card p {
+  margin: 5px 0;
+  font-size: 11px;
+  color: #9d8686;
+}
+
+.blog-card p span {
+  margin-right: 5px;
+}
+
+/*  */
+
+.blog-card .card-content .blog-card-usericon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #eee;
+}
+
+.blog-card .card-content .blog-card-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.blog-card .card-content button {
+  background-color: var(--sixth-color);
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  margin: 10px 0;
+  cursor: pointer;
+}

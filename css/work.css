@@ -1,0 +1,53 @@
+/* active link in navbar */
+
+.nav-parent ul li:nth-child(4) {
+  background-color: var(--main-color);
+}
+
+/* our team section */
+.our-team-section {
+  background-color: #fff;
+  padding-top: 30px;
+}
+
+.our-team-section .section-title {
+  width: 100%;
+  background-color: var(--main-color);
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.our-team-section .section-title p {
+  font-size: 21px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.our-team-section .section-title p span {
+  display: inline-flex;
+  width: 40px;
+  height: 45px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee2e;
+  margin-right: 10px;
+}
+
+/* cards */
+.users-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30%);
+  margin-top: 100px;
+  gap: 10px;
+  padding-bottom: 40px;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+@media (max-width: 990px) {
+  .users-container {
+    grid-template-columns: repeat(auto-fit, 100%);
+  }
+}
