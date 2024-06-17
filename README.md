@@ -5,11 +5,6 @@ A simple and responsive template website built with HTML, CSS, and JavaScript.
 - Project Overview
 - Features
 - Technologies Used
-- Installation
-- Usage
-- Contributing
-- License
-- Contact
 
 ### Project Overview
 Template Website is a basic and responsive web template designed to be a practice point for web development projects. It includes essential components and a clean layout that can be easily customized to suit different needs.
